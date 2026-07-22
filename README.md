@@ -2,7 +2,7 @@
 
 This repository contains the official implementation of the paper:
 
-**Progressive Diagnosis-Specific Representation Learning for Multi-Label ECG Classification with Intrinsic Diagnostic Dependency Modeling**
+**Progressive Diagnosis-Specific Representation Learning via Diagnostic Dependency Modeling for Multi-Label ECG Classification**
 
 ## Overview
 
