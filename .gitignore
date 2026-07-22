@@ -1,0 +1,74 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ai-env/
+cad-mamba-env/
+
+# Dataset
+dataset/
+
+# Generated outputs
+notebooks/*.ipynb
+!notebooks/12_experiment_05A_dependency_gated_sequence.ipynb
+tests/
+outputs/checkpoints/
+outputs/logs/
+outputs/predictions/
+outputs/results/
+outputs/figures/
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated data
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+
+# Experiment tracking
+wandb/
+runs/
+mlruns/
+lightning_logs/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Credentials and environment variables
+.env
+.env.*
+*.key
+*.pem
+
+# Test and package artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
